@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebService</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="logo">Web<span class="logo-text">Console</span></div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">Проєкти</a></li>
+                <li><a href="#">Домени</a></li>
+                <li><a href="#">Налаштування</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Ваші сайти</h1>
+        <article class="card-grid">
+
+            <section class="web-card">
+                <div class="preview-box">
+                    <img src="data:image/png;base64,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" alt="">
+                    <span class="online status">Online</span>
+                </div>
+
+                <div class="card-info">
+                    <h2>www.portfolio.com</h2>
+                    <p>Skibidi</p>
+                    <button class="btn-edit">Редагувати</button>
+                </div>
+
+            </section>
+            <section class="web-card">
+                <div class="preview-box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Peugeot_404_Champs.jpg" alt="">
+                    <span class="offline status">Offline</span>
+                </div>
+
+                <div class="card-info">
+                    <h2>www.portfolio.com</h2>
+                    <p>Помилка сертифіката SSL</p>
+                    <button class="btn-edit">Виправити</button>
+                </div>
+
+            </section>
+
+
+
+        </article>
+
+
+        <article class="info-alert">
+
+            <p><span class="bold">Порада: </span>підключіть Google аналітику</p>
+
+        </article>
+
+        <article class="details">
+            <h2>Skibidi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+            </div>
+
+        </article>
+        <button class="fixed-chat">Допомога</button>
+    </main>
+    <footer>&copy; Kryvobok Ivan Всі права захищені</footer>
+</div>
+
+</body>
+</html>
