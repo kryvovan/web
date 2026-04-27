@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0f172a;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    text-decoration: none;
+
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: rgba(15, 23, 42, 0.7);
+}
+
+.logo{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.it-logo{
+    color: #377ce9;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 16px;
+
+}
+
+
+.menu:hover{
+    color: #377ce9;
+}
+
+.choose h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 0 16px;
+    color: #51c0ff;
+    font-weight: bold;
+}
+
+.choose{
+    padding: 80px 24px;
+}
+.choose p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #85a5c3;
+}
+
+.careers h2{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.everything{
+    padding: 64px 24px;
+}
+.careers{
+
+}
+.grid-careers{
+    background: #1d2a3d;
+
+}
+
